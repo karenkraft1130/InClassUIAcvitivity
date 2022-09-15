@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
 
         spinner.adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, numberArray.asList())
 
-
         // Step 2: Save selected text size
         spinner.onItemSelectedListener = object: AdapterView.OnItemSelectedListener {
             override fun onItemSelected(
@@ -28,7 +27,7 @@ class MainActivity : AppCompatActivity() {
                 position: Int,
                 id: Long
             ) {
-
+                spinner.
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {}
