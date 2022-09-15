@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                 position: Int,
                 id: Long
             ) {
-                spinner.
+                spinner.onItemSelectedListener.onItemSelected(displayTextView.textSize = numberArray)
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {}
